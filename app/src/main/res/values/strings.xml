@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Gestao-Comercial</string>
+    <string name="action_show_on_map">Mostrar o Mapa</string>
+
 </resources>
