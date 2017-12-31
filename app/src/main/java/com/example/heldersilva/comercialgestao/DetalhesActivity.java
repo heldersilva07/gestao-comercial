@@ -42,8 +42,10 @@ public class DetalhesActivity extends AppCompatActivity {
 
     protected void openLocationInMap() {
 
-        String addressString = "Av. Eng. Jose Afonso Maria de Figueiredo 121, 4470-285 Maia";
-        Uri geoLocation = Uri.parse("geo:0,0?q" + addressString);
+        String addressString = "Av. Eng. Jose Afonso Maria de Figueiredo 121, 4470-285 Maia ";
+        Uri geoLocation = Uri.parse("geo:0,0?q=" +addressString);
+
+        //Uri geoLocation = Uri.parse("geo:0,0?q= Av. Eng. Jose Afonso Maria de Figueiredo 121, 4470-285 Maia &z=30");
 
         Intent intent = new Intent(Intent.ACTION_VIEW,geoLocation);
         intent.setData(geoLocation);
