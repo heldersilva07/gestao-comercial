@@ -9,10 +9,14 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import java.util.List;
 
 public class DetalhesActivity extends AppCompatActivity {
     protected TextView lbnome,lbmorada,lbnumero;
     private static final String TAG = DetalhesActivity.class.getSimpleName();
+
 
 
     @Override
@@ -42,7 +46,8 @@ public class DetalhesActivity extends AppCompatActivity {
 
     protected void openLocationInMap() {
 
-        String addressString = "Av. Eng. Jose Afonso Maria de Figueiredo 121, 4470-285 Maia ";
+       // String addressString = "Av. Eng. Jose Afonso Maria de Figueiredo 121, 4470-285 Maia ";
+        String addressString = lbmorada.getText().toString();
         Uri geoLocation = Uri.parse("geo:0,0?q=" +addressString);
 
         //Uri geoLocation = Uri.parse("geo:0,0?q= Av. Eng. Jose Afonso Maria de Figueiredo 121, 4470-285 Maia &z=30");
@@ -69,5 +74,6 @@ public class DetalhesActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
 
 }

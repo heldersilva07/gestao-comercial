@@ -13,7 +13,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     protected EditText oNome,aMorada,oNumero;
-    protected Button botaoInserir,botaoProximo;
+    protected Button botaoInserir,botaoListaClientes;
     protected AdaptadorBaseDados db;
 
     List<String> osNomes;
@@ -58,8 +58,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        botaoProximo=(Button)findViewById(R.id.botaoProximo);
-        botaoProximo.setOnClickListener(new View.OnClickListener() {
+        botaoListaClientes=(Button)findViewById(R.id.botaoListaClientes);
+        botaoListaClientes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 osNomes = db.obterTodosNomes();
