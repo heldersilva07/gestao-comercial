@@ -1,5 +1,17 @@
 <resources>
     <string name="app_name">Gestao-Comercial</string>
     <string name="action_show_on_map">Mostrar o Mapa</string>
+    <string name="action_sign_in_short">Registar</string>
+    <string name="email">Email</string>
+    <string name="minimum_password">Password pequena,  minimo 6 caracters!</string>
+    <string name="auth_failed">Erro na autenticacao, verifique email e password ou registe-se</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_link_to_register">Registe-se,se ainda nao tiver conta!</string>
+    <string name="btn_link_to_login">Se já esta registado.Faca Login!</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="btn_sign_out">Sign Out</string>
 
 </resources>
