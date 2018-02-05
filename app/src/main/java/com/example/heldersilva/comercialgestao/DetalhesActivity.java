@@ -32,6 +32,8 @@ public class DetalhesActivity extends AppCompatActivity {
         lbmorada.setText(oIntent.getStringExtra("morada"));
         lbnumero.setText(oIntent.getStringExtra("telefone"));
 
+        this.getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
     }
 
     @Override
@@ -67,6 +69,9 @@ public class DetalhesActivity extends AppCompatActivity {
         if (id == R.id.action_map) {
             openLocationInMap();
             return true;
+        }
+        if (id == android.R.id.home) {
+            onBackPressed();
         }
 
         return super.onOptionsItemSelected(item);

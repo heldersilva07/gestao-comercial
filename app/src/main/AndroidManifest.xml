@@ -16,7 +16,8 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
         </activity>
-        <activity android:name=".ListarActivity" />
+        <activity android:name=".ListarActivity"
+            android:launchMode="singleTop"/>
         <activity android:name=".DetalhesActivity" />
         <activity android:name=".SignupActivity" />
         <activity android:name=".LoginActivity">
