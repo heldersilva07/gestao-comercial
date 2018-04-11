@@ -1,4 +1,5 @@
 # Gestao-comercial
+Esta App tem como objectivo proporcionar aos gestores comerciais uma melhor qualidade de serviço perante os clientes. 
 ## Funcionalidades
 
 Login/Registo(Autenticaçao atraves do Firebase Authentication);
