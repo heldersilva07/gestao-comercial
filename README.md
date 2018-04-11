@@ -1,4 +1,4 @@
-# gestao-comercial
+# Gestao-comercial
 ## Funcionalidades:
 
 Login/Registo(Autenticaçao atraves do Firebase Authentication);
