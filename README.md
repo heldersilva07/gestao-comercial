@@ -1,5 +1,6 @@
 # gestao-comercial
 Funcionalidades:
+
 Login/Registo(Autenticaçao atraves do Firebase Authentication);
 Inserir Clientes;
 Ver lista de Clientes;
